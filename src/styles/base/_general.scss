@@ -2,4 +2,238 @@ h1, h2, h3, h4, h5, h6, ul, body {
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    @include typography(35pt, $font-bold);
+}
+h2{
+    @include typography(33pt, $font-medium, $d24);
+}
+h3{
+    @include typography(27pt);
+}
+h4{
+    @include typography(22pt);
+}
+h5{
+    @include typography(17pt);
+}
+h6{
+    @include typography(15pt);
+}
+p{
+    @include typography(14pt, $font-regular, inherit);
+}
+p.subtitle{
+    @include typography(20pt, $font-medium, $d24);
+}
+ul li{
+    @include typography(15pt, $font-medium, inherit);
+    list-style-type: none;
+    list-style-image: url(../../../img/okpng.png);
+}
+blockquote{
+    @include typography(17pt, $font-regular, $d11);
+    background-color: $l31;
+    padding-left: 30px;
+    border-left: 2px solid $l11;
+}
+.color{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.p1{
+    background-color: $p1;
+}
+.p2{
+    background-color: $p2;
+}
+.p3{
+    background-color: $p3;
+}
+.p4{
+    background-color: $p4;
+}
 
+.l11{
+    background-color: $l11;
+}
+.l12{
+    background-color: $l12;
+}
+.l13{
+    background-color: $l13;
+}
+.l14{
+    background-color: $l14;
+}
+
+.l21{
+    background-color: $l21;
+}
+.l22{
+    background-color: $l22;
+}
+.l23{
+    background-color: $l23;
+}
+.l24{
+    background-color: $l24;
+}
+
+.l31{
+    background-color: $l31;
+}
+.l32{
+    background-color: $l32;
+}
+.l33{
+    background-color: $l33;
+}
+.l34{
+    background-color: $l34;
+}
+
+.d11{
+    background-color: $d11;
+}
+.d12{
+    background-color: $d12;
+}
+.d13{
+    background-color: $d13;
+}
+.d14{
+    background-color: $d14;
+}
+
+.d21{
+    background-color: $d21;
+}
+.d22{
+    background-color: $d22;
+}
+.d23{
+    background-color: $d23;
+}
+.d24{
+    background-color: $d24;
+}
+
+.d31{
+    background-color: $d31;
+}
+.d32{
+    background-color: $d32;
+}
+.d33{
+    background-color: $d33;
+}
+.d34{
+    background-color: $d34;
+}
+// ----------------------------HOMEWORK START-----------------------------------
+
+ .button .size-l button{
+    height: 50px;
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    font-family: 'Poppins-bold';
+ }
+.size-l .n1{
+    width: 220px;
+}
+.size-l .n2{
+    width: 280px;
+}
+.size-l .n3{
+    width: 201px;
+}
+.size-l .n4{
+    width: 220px;
+}
+.size-l .n5{
+    width: 201px;
+}
+.button .size-s button{
+   height: 40px;
+   border-radius: 3px;
+   margin-right: 3px;
+   margin-bottom: 10px;
+   font-family: 'Poppins-bold';
+}
+.size-s .n1{
+    width: 150px;
+}
+.size-s .n2{
+    width: 170px;
+}
+.size-s .n3{
+    width: 150px;
+}
+.size-s .n4{
+    width: 150px;
+}
+.size-s .n5{
+    width: 150px;
+}
+
+.b1{
+    @include button ($p2, $light, transparent);
+    text-transform: uppercase;
+    font-family: 'Poppins-bold';
+}
+.normal .n2{
+    @include button ($p1, $light, transparent)
+}
+.b3{
+    @include button ($d11, $light, transparent);
+    text-transform: uppercase;
+    font-family: 'Poppins-bold';
+}
+.normal .n4{
+    @include button (transparent, $p2, $p2)
+}
+.normal .n5{
+    @include button (transparent, $p1, $p1)
+}
+
+.hover .n1{
+    @include button ($l22, $light, transparent)
+}
+.hover .n2{
+    @include button ($l21, $light, transparent)
+}
+.hover .n3{
+    @include button ($l21, $light, transparent)
+}
+.hover .n4{
+    @include button ($l22, $light, transparent)
+}
+.hover .n5{
+    @include button ($l21, $light, transparent)
+}
+
+.disable .n1{
+    @include button ($l24, $light, transparent)
+}
+.disable .n2{
+    @include button ($l24, $light, transparent)
+}
+.disable .n3{
+    @include button ($l24, $light, transparent)
+}
+.disable .n4{
+    @include button ($l24, $light, transparent)
+}
+.disable .n5{
+    @include button ($l24, $light, transparent)
+}
+// ----------------------------HOMEWORK END-----------------------------------

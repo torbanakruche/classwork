@@ -1,0 +1,37 @@
+$p1: #03a9f3;
+$p2: #f75d2d;
+$p3: #ebf94d;
+$p4: #656a70;
+
+$light:white;
+$dark: black;
+
+$l11: mix($light, $p1, 40%);
+$l12: mix($light, $p2, 40%);
+$l13: mix($light, $p3, 40%);
+$l14: mix($light, $p4, 40%);
+
+$l21: mix($light, $p1, 75%);
+$l22: mix($light, $p2, 75%);
+$l23: mix($light, $p3, 75%);
+$l24: mix($light, $p4, 75%);
+
+$l31: mix($light, $p1, 90%);
+$l32: mix($light, $p2, 90%);
+$l33: mix($light, $p3, 90%);
+$l34: mix($light, $p4, 90%);
+
+$d11: mix($dark, $p1, 20%);
+$d12: mix($dark, $p2, 20%);
+$d13: mix($dark, $p3, 20%);
+$d14: mix($dark, $p4, 20%);
+
+$d21: mix($dark, $p1, 50%);
+$d22: mix($dark, $p2, 50%);
+$d23: mix($dark, $p3, 50%);
+$d24: mix($dark, $p4, 50%);
+
+$d31: mix($dark, $p1, 70%);
+$d32: mix($dark, $p2, 70%);
+$d33: mix($dark, $p3, 70%);
+$d34: mix($dark, $p4, 70%);

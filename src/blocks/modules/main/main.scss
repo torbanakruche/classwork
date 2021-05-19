@@ -1,0 +1,44 @@
+.main{
+    p{
+        font-family: $font-bold;
+    }
+    >p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    ul li{
+        background-color: $l31;
+        height: 56px;
+        align-items: center;
+        list-style-image: none;
+        p{
+            font-size: 15px;
+            span{
+                color: $p1;
+                padding: 20px 0;
+                margin-left: 20px;
+                margin-right: 30px;
+            }
+        }
+    }
+    .minus{
+        border: 2px solid $d11;
+        margin-top: 5px;
+        padding-bottom: 20px;
+        p{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        p:first-of-type{
+            color: $p1;
+            span{
+                color: $p1;
+                margin-left: 20px;
+                margin-right: 30px;
+            }
+        }
+        p:last-of-type{
+            margin: 0px 65px;
+        }
+    }
+}

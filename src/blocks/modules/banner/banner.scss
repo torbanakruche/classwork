@@ -1,0 +1,16 @@
+.banner{
+    padding: 85px 15px;
+    background:url(../../../img/clouds.png) 30% 10% no-repeat, url(../../../img/img_city.png) top left/auto 100%, $l21;
+    ul li{
+        display: inline-block;
+        margin-right: 20px;
+        text-transform: uppercase;
+        a{
+            color: $p4;
+            margin-right: 15px;
+        }
+        span{
+            color: $p4;
+        }
+    }
+}

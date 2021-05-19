@@ -1,0 +1,14 @@
+@mixin typography($f-size:14pt, $f-family:$font-medium, $f-color:$d34) {
+    font-size: $f-size;
+    font-family: $f-family;
+    color: $f-color;
+ }
+ @mixin button($bg-color, $f-color, $bor-color, $width:100px, $height:40px){
+   height: $height;
+   width: $width; 
+   background-color: $bg-color;
+   color: $f-color;
+   border-color: $bor-color;
+   border-radius: 3px;
+   cursor: pointer;
+ }

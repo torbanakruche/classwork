@@ -1,0 +1,147 @@
+footer{
+    background-color: $p1;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    .foot-1{
+        padding-bottom: 30px;
+        border-bottom: 1px solid $l11;
+        .logo{
+            display: flex;
+            align-items: center;
+            align-content: start;
+            img{
+                height: 60px;
+                margin-right: 5px;
+            }
+            p{
+                margin: 0px; 
+                &:first-of-type{
+                    font-family: 'Gabriola Regular';
+                    font-size: 30px;
+                    line-height: 20px;
+                    span:first-of-type{
+                        font-family: $font-bold;
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        color: $p3;
+                    }
+                    span:last-of-type{
+                        font-family: $font-regular;
+                        font-size: 12px;
+                    }
+                }
+                &:last-of-type{
+                        font-family: $font-regular;
+                        font-size: 12px;
+                }
+            } 
+        }
+        .services{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: start;
+            ul li{
+                display: inline-block;
+                padding: 12px 10px;
+                margin: 0px 5px;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+    .foot-2{
+        padding: 40px 0px;
+        border-bottom: 1px solid $l11;
+        p:first-of-type{
+            font-family: $font-regular;
+            font-size: 16px;
+            color: $light;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .foot-3{
+        display: flex;
+        align-items: center;
+        align-content: start;
+        .col-3:first-of-type{
+            p{
+                font-size: 13px;
+                line-height: 10px;
+            }
+        }
+        .col-3:nth-of-type(2){
+            margin: 40px 0px;
+            ul li{
+                // background-color: red;
+                display: inline-block;
+                list-style-image: none;
+                margin-left: 5px;
+            a{
+                display: block;
+                width: 40px;
+                height: 40px;
+                border: 1px solid white;
+                padding: 5px 10px;
+                border-radius: 50%;
+                span{
+                    // background-color: green;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        }
+        .col-3:nth-of-type(3){
+            display: flex;
+            align-items: center;
+            align-content: start;
+            div:first-of-type{
+                margin-right: 20px;
+                a{
+                    border: 2px solid white;
+                    padding: 5px;
+                    border-radius: 50%;
+                    color: $p1;
+                    background-color: white;
+                }
+            }
+            div:last-of-type{
+                p:first-of-type{
+                    font-size: 13px;
+                    line-height: 5px;
+                }
+                p:last-of-type{
+                    font-size: 16px;
+                    line-height: 5px;
+                    font-family: $font-bold;
+                }
+            }
+        }
+        .col-3:nth-of-type(4){
+            display: flex;
+            align-items: center;
+            align-content: start;
+            div:first-of-type{
+                margin-right: 20px;
+                a{
+                    border: 2px solid white;
+                    padding: 5px;
+                    border-radius: 50%;
+                    color: $p1;
+                    background-color: white;
+                }
+            }
+            div:last-of-type{
+                p{
+                    font-size: 13px;
+                    line-height: 5px;
+                }
+            }
+        }
+    }
+}
